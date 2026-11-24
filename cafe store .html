@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moonsip Café</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=DM+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="wrap">
+
+            <a class="logo" href="#top">moonsip ☾</a>
+
+            <div class="links">
+                <a class="pill" href="#menu">menu</a>
+                <a class="pill" href="#specials">specials</a>
+                <a class="pill" href="#reviews">reviews</a>
+                <a class="pill" href="#visit">visit</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero" id="top">
+
+        <div class="wrap">
+
+            <div>
+                <h1>sip slow, <span>stay</span> long.</h1>
+
+                <p>
+                    Your cozy corner for matcha, strong coffee and fresh bakes.
+                    Bring your laptop, your besties, or just your mood.
+                </p>
+
+                <div class="cta">
+                    <a class="btn" href="#menu">See the menu</a>
+                    <a class="btn alt" href="#visit">Find us</a>
+                </div>
+            </div>
+
+            <div class="cup">
+                🍵
+                <span class="sticker s1">fresh matcha</span>
+                <span class="sticker s2">open late</span>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- Moving Text -->
+    <div class="marquee">
+        <div>
+            matcha ✦ cold brew ✦ croissants ✦ cheesecake ✦ good vibes ✦
+            study sessions ✦ date nights ✦ matcha ✦ cold brew ✦
+        </div>
+    </div>
+
+
+    <!-- Menu Section -->
+    <section id="menu">
+
+        <div class="wrap">
+
+            <h2>the menu</h2>
+
+            <p class="sub">
+                Tap a category. Prices are samples, so swap in your own.
+            </p>
+
+            <div class="tabs" id="tabs"></div>
+
+            <div class="items" id="items"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Specials Section -->
+    <section class="specials" id="specials">
+
+        <div class="wrap">
+
+            <h2>today’s specials</h2>
+
+            <p class="sub">
+                Limited batches. When they’re gone, they’re gone.
+            </p>
+
+            <div class="grid">
+
+                <div class="sp">
+                    <div class="e">🍓</div>
+                    <h3>Strawberry Cloud Latte</h3>
+                    <p>Strawberry milk, espresso and a sweet cream cloud on top.</p>
+                    <span class="tag">₹240</span>
+                </div>
+
+                <div class="sp">
+                    <div class="e">🥐</div>
+                    <h3>Pistachio Croissant</h3>
+                    <p>Flaky, buttery and filled with pistachio cream. Baked at 8 am.</p>
+                    <span class="tag">₹180</span>
+                </div>
+
+                <div class="sp">
+                    <div class="e">🧋</div>
+                    <h3>Taro Pearl Cooler</h3>
+                    <p>Purple taro, chewy pearls and cold foam. It’s giving dessert.</p>
+                    <span class="tag">₹210</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Reviews Section -->
+    <section id="reviews">
+
+        <div class="wrap">
+
+            <h2>the girlies & guys say</h2>
+
+            <p class="sub">Real vibes from our regulars.</p>
+
+            <div class="rev">
+
+                <div class="r">
+                    <div class="st">★★★★★</div>
+                    <p>The matcha is so creamy and the playlist is immaculate. My new study spot, no question.</p>
+                    <b>Aanya, college student</b>
+                </div>
+
+                <div class="r">
+                    <div class="st">★★★★★</div>
+                    <p>Cutest café ever. The strawberry latte is aesthetic and actually tastes amazing.</p>
+                    <b>Rohan, content creator</b>
+                </div>
+
+                <div class="r">
+                    <div class="st">★★★★☆</div>
+                    <p>Great wifi, soft seats and the cheesecake is dangerous. Gets busy on weekends!</p>
+                    <b>Meera, designer</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Visit Section -->
+    <section id="visit">
+
+        <div class="wrap two">
+
+            <div class="box">
+
+                <h2>opening hours</h2>
+
+                <ul class="hrs" id="hrs"></ul>
+
+            </div>
+
+
+            <div class="box">
+
+                <h2>find us</h2>
+
+                <p>
+                    <b>Moonsip Café</b><br>
+                    12 Rainbow Lane, Main Street<br>
+                    Your City, 000000
+                </p>
+
+                <p>
+                    📞 +00 00000 00000<br>
+                    📸 @moonsip.cafe
+                </p>
+
+                <div class="map">📍</div>
+
+                <p>
+                    <a class="btn" href="#top">Get directions</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        made with 🍵 and good energy · moonsip café
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        const menu = {
+
+            "coffee": [
+                ["☕", "Iced Latte", "Double shot, cold milk, ice.", "190"],
+                ["🤎", "Caramel Cold Brew", "Smooth, slow steeped, caramel drizzle.", "220"],
+                ["🥛", "Oat Flat White", "Velvety oat milk, strong espresso.", "200"]
+            ],
+
+            "matcha & tea": [
+                ["🍵", "Iced Matcha Latte", "Ceremonial matcha with milk.", "230"],
+                ["🍑", "Peach Iced Tea", "Fruity, light and refreshing.", "160"],
+                ["🌸", "Rose Chai", "Spiced chai with rose petals.", "170"]
+            ],
+
+            "bites": [
+                ["🥐", "Butter Croissant", "Flaky and golden.", "120"],
+                ["🍰", "Basque Cheesecake", "Creamy with a burnt top.", "260"],
+                ["🥪", "Pesto Grilled Sandwich", "Cheesy, crunchy and warm.", "210"]
+            ]
+
+        };
+
+
+        const tabs = document.getElementById('tabs');
+        const items = document.getElementById('items');
+
+
+        function show(k) {
+
+            [...tabs.children].forEach(b =>
+                b.setAttribute('aria-selected', b.dataset.k === k)
+            );
+
+            items.innerHTML = menu[k].map(m => `
+                <div class="item">
+                    <div class="e">${m[0]}</div>
+
+                    <div>
+                        <h3>${m[1]}</h3>
+                        <p>${m[2]}</p>
+                    </div>
+
+                    <span class="price">₹${m[3]}</span>
+                </div>
+            `).join('');
+
+        }
+
+
+        Object.keys(menu).forEach((k, i) => {
+
+            const b = document.createElement('button');
+
+            b.className = 'tab';
+            b.role = 'tab';
+            b.textContent = k;
+            b.dataset.k = k;
+
+            b.onclick = () => show(k);
+
+            tabs.appendChild(b);
+
+        });
+
+
+        show('coffee');
+
+
+        const days = [
+            ["Sunday", "9 am – 11 pm"],
+            ["Monday", "8 am – 10 pm"],
+            ["Tuesday", "8 am – 10 pm"],
+            ["Wednesday", "8 am – 10 pm"],
+            ["Thursday", "8 am – 10 pm"],
+            ["Friday", "8 am – 12 am"],
+            ["Saturday", "9 am – 12 am"]
+        ];
+
+
+        const t = new Date().getDay();
+
+
+        document.getElementById('hrs').innerHTML =
+            days.map((d, i) => `
+                <li class="${i === t ? 'today' : ''}">
+                    <span>${d[0]}</span>
+                    <span>${d[1]}</span>
+                </li>
+            `).join('');
+
+    </script>
+
+</body>
+</html>
