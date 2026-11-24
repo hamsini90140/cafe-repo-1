@@ -1,5 +1,5 @@
 # cafe-repo-1
-student name - indhu hamsini ,rollno. N26V01A0148,SECTION-2
+student name - INDHU HAMSINI ,rollno. N26V01A0148,SECTION-2
 DEPLOY LINK- https://6b051c6f1800b792f8f65d62--aquamarine-pony-5bd6ad.netlify.app  
 # ☕ Cafe Website
 
